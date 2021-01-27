@@ -655,3 +655,13 @@ class Information(GroupBase):
     def __init__(self):
         GroupBase.__init__(self)
         self.common_params = []
+
+
+class PlayIn(GroupBase):
+    """
+    Group for playing in history data.
+    """
+
+    def __init__(self):
+        GroupBase.__init__(self)
+        self.common_params = []
